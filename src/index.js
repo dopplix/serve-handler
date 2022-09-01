@@ -456,7 +456,8 @@ const renderDirectory = async (current, acceptsJSON, handlers, methods, config, 
 	const spec = {
 		files,
 		directory,
-		paths: subPaths
+		paths: subPaths,
+		baseRootUrl: config.baseRootUrl? config.baseRootUrl : ""
 	};
 
 	const output = acceptsJSON ? JSON.stringify(spec) : directoryTemplate(spec);
