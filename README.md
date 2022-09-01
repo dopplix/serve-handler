@@ -1,4 +1,4 @@
-# serve-handler + base root url
+# serve-handler + baseRootUrl
 
 [![Build Status](https://circleci.com/gh/vercel/serve-handler.svg?&style=shield)](https://circleci.com/gh/vercel/serve-handler)
 [![codecov](https://codecov.io/gh/vercel/serve-handler/branch/master/graph/badge.svg)](https://codecov.io/gh/vercel/serve-handler)
